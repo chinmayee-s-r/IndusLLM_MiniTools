@@ -31,7 +31,7 @@ This notebook:
 import os
 from googleapiclient.discovery import build
 
-os.environ["YT_API_KEY"] = "AIzaSyCOwOv8Ayxmajxj7OyiE1bXNLY3jwcRXjM"
+os.environ["YT_API_KEY"] = "YOUR_API_KEY"
 
 API_KEY = os.getenv("YT_API_KEY")
 assert API_KEY, "YouTube API key not set!"
